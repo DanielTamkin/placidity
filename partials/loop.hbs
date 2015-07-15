@@ -1,0 +1,59 @@
+{{!loop template}}
+{{#if posts}}
+  {{#is "paged"}}
+    {{pagination}}
+  {{/is}}
+{{/if}}
+<section id="loop">
+{{#if posts}}
+  {{#foreach posts}}
+    {{#if image}}
+      <article>
+        <section class="image">
+          <img src="{{image}}"/>
+        </section>
+        <section class="body">
+          <header>
+            <h1>{{title}}</h1>
+            {{#if tags}}
+                <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}} - {{tags separator=" & "}}</p>
+              {{else}}
+                <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}}</p>
+            {{/if}}
+          </header>
+          <section class="excerpt">
+            <p>{{excerpt words="40"}}</p>
+          </section>
+          <footer>
+            <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
+          </footer>
+        </section>
+      </article>
+    {{else}}
+      <article>
+        <header>
+          <h1>{{title}}</h1>
+          {{#if tags}}
+              <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}} - {{tags separator=" & "}}</p>
+            {{else}}
+              <p>by <b>{{author}}</b>, on {{date format="MMMM DD, YYYY"}}</p>
+          {{/if}}
+        </header>
+        <section class="excerpt">
+          <p>{{excerpt words="60"}}</p>
+        </section>
+        <footer>
+          <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
+        </footer>
+      </article>
+    {{/if}}
+  {{/foreach}}
+  {{else}}
+    <section class="noposts">
+    <h1>no posts yet!</h1>
+    <p>bummer, <a href="{{@blog.url}}/ghost/">why not make one?</a></p>
+{{/if}}
+</section>
+{{#if posts}}
+  {{pagination}}
+{{/if}}

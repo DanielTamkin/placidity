@@ -1,0 +1,61 @@
+{{!< default}}
+{{! post template}}
+{{#post}}
+<article id="post" class="Container-Medium">
+  <section class="body">
+    {{content}}
+  </section>
+  <footer>
+    <section class="head">
+      <section class="author">
+        {{#if author.image}}
+          <div class="profileimage">
+            <img src="{{author.image}}" />
+          </div>
+        {{/if}}
+        <div class="name">
+          <h2>by <b>{{author}}</b>,</h2>
+          <p>on {{date format="MMMM DD, YYYY"}}</p>
+        </div>
+      </section>
+      <section class="share">
+        <h2><b>Share:</b></h2>
+        <p>
+          <a href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}">Twitter</a>,
+           <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}">facebook</a>.</p>
+        </p>
+      </section>
+    </section>
+    <section id="loop" class="suggested Container-Small">
+      <h1 class="title">suggested reads</h1>
+      <hr class="title"/>
+      {{#next_post}}
+        <article class="suggested">
+          <header>
+            <h1>{{title}}</h1>
+          </header>
+          <section class="excerpt">
+            <p>{{excerpt words="30"}}</p>
+          </section>
+          <footer>
+            <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
+          </footer>
+        </article>
+      {{/next_post}}
+      {{#prev_post}}
+        <article class="suggested">
+          <header>
+            <h1>{{title}}</h1>
+          </header>
+          <section class="excerpt">
+            <p>{{excerpt words="30"}}</p>
+          </section>
+          <footer>
+            <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>
+          </footer>
+        </article>
+      {{/prev_post}}
+    </section>
+  </footer>
+</article>
+{{/post}}

@@ -1,0 +1,19 @@
+{{#tag}}
+  {{#if image}}
+    <section id="site-hero" style="background: url({{image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  {{else}}
+    <section id="site-hero" class="hero-partial hero-noimage">
+  {{/if}}
+      {{navigation}}
+      <div class="title Container-Large">
+        <h1>{{name}}</h1>
+        {{#if description}}
+          <p>{{description}}</p>
+        {{/if}}
+      </div>
+  </section>
+{{/tag}}
+<script>
+  $("#site-hero").AnchorSlide();
+  $("#site-hero .title").centerThis();
+</script>

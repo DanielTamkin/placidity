@@ -1,0 +1,20 @@
+{{! navigation template}}
+<nav id="site-nav">
+  <div class="Container-Large">
+    {{#if @blog.cover}}
+        {{^is "home"}}
+          <a href="{{@blog.url}}"><h1>{{@blog.title}}</h1></a>
+          <ul>
+        {{else}}
+          <ul class="center">
+        {{/is}}
+      {{else}}
+        <a href="{{@blog.url}}"><h1>{{@blog.title}}</h1></a>
+        <ul>
+    {{/if}}
+      {{#foreach navigation}}
+        <a href="{{url absolute="true"}}"><li>{{label}}</li></a>
+      {{/foreach}}
+    </ul>
+  </div>
+</nav>

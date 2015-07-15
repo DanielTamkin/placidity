@@ -1,0 +1,37 @@
+{{#author}}
+  {{#if cover}}
+      <section id="site-hero" class="hero-partial" style="background: url({{cover}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+    {{else}}
+      <section id="site-hero" class="hero-partial hero-noimage">
+  {{/if}}
+      {{navigation}}
+      <div class="title Container-Large">
+        {{#if image}}
+          <div class="profileimage">
+            <img src="{{image}}" />
+          </div>
+        {{/if}}
+        <h1>{{name}}</h1>
+        <p class="small">
+          {{#if website}}
+            {{#if location}}
+              {{location}}, <a href="{{website}}">{{website}}</a>
+            {{else}}
+              <a href="{{website}}">{{website}}</a>
+            {{/if}}
+            {{else}}
+            {{#if location}}
+              {{location}}
+            {{/if}}
+          {{/if}}
+        </p>
+        {{#if bio}}
+          <p>{{bio}}</p>
+        {{/if}}
+      </div>
+  </section>
+{{/author}}
+<script>
+  $("#site-hero").AnchorSlide();
+  $("#site-hero .title").centerThis();
+</script>

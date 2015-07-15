@@ -1,0 +1,19 @@
+{{#is "post"}}
+  {{> "hero-post"}}
+  {{else}}
+  {{#is "private"}}
+    {{> "hero-private"}}
+    {{else}}
+    {{#is "tag"}}
+      {{> "hero-tag"}}
+      {{else}}
+      {{#is "author"}}
+        {{> "hero-author"}}
+        {{else}}
+          {{#is "paged"}}
+            {{> "hero-home"}}
+          {{/is}}
+      {{/is}}
+    {{/is}}
+  {{/is}}
+{{/is}}

@@ -1,0 +1,126 @@
+//*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,700,400);
+/*@import url(http://weloveiconfonts.com/api/?family=entypo);*/
+/*@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);*/
+*{
+	margin:0;
+	padding:0;
+}
+html, body{
+	width:100%;
+  height: 100%;
+}
+body{/*font-family: 'Montserrat', sans-serif;*/}
+/*Basics*/
+    .Theme-Original{background:#dedede;}
+	.Theme-Dark{background:#333;}
+		.Site-Container{margin:0 auto;width:85%;max-width:1260px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
+		.Container-Large{margin:0 auto;width:85%;max-width:1260px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
+		.Container-Medium{margin:0 auto;width:85%;max-width:1000px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
+		.Container-Small{margin:0 auto;width:85%;max-width:680px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
+		.Container-Tiny{margin:0 auto;width:85%;max-width:480px;/*border-left:1px solid #111;border-right:1px solid #111;*/}
+		.Container-FullWidth{margin:0 auto;width:95%;}
+		.ghostb{padding:4px 26px;box-sizing:border-box;border:4px solid #273a34;display:inline-block;color:#273a34;font-size:1.2em;
+			text-transform:uppercase;
+			font-family:'Lato-Bold';
+			-webkit-transition: all 100ms ease-in-out;
+			-moz-transition: all 100ms ease-in-out;
+			-ms-transition: all 100ms ease-in-out;
+			-o-transition: all 100ms ease-in-out;
+			transition: all 100ms ease-in-out;
+		}
+			.ghostb:hover{background:#273a34;color:#fff;cursor:pointer;
+				-webkit-transition: all 100ms ease-in-out;
+				-moz-transition: all 100ms ease-in-out;
+				-ms-transition: all 100ms ease-in-out;
+				-o-transition: all 100ms ease-in-out;
+				transition: all 100ms ease-in-out;
+			}
+		@media all and (max-width: 600px) {
+			.ghostb{padding:6px 26px;}
+		}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a{
+	color:inherit;
+	text-decoration:none;
+}
+i{
+	font-style:italic;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body,html {
+	width:100%;
+    height: 100%;
+	line-height: 1;
+	font-size:100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* - MyResets - */
+	h1{font-size:3em;position:relative;top:0;left:0;}
+	h2{font-size:1.5em;position:relative;top:0;left:0;}
+	p{font-size:1.1em;/*position:relative;top:0;left:0;*/}
+/*Font Resize*/
+		@media all and (max-width: 1000px) {
+			body{font-size:100%;}
+		}
+		@media all and (max-width: 850px) {
+			body{font-size:89%;}
+		}
+		@media all and (max-width: 750px) {
+			body{font-size:85%;}
+			.Container-Large{width:95%;}
+		}
+		@media all and (max-width: 650px) {
+			body{font-size:85%;}
+		}
+		@media all and (max-width: 550px) {
+			body{font-size:84%;}
+		}
+		@media all and (max-width: 450px) {
+			body{font-size:83%;}
+			/*p{font-size:1.5em;}*/
+		}
+		@media all and (max-width: 300px) {
+			body{font-size:82%;}
+		}

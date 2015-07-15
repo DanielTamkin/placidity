@@ -1,0 +1,15 @@
+<section id="site-hero" style="background: url({{@blog.cover}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  <div class="wrapper">
+    <section id="private" class="Container-Tiny">
+      <h1>{{@blog.title}}</h1>
+      <form method="post">
+        {{input_password}}
+        <input type="submit" />
+      </form>
+    </section>
+  </div>
+  {{> "footer"}}
+</section>
+<script>
+  $("#private").centerThis("browser");
+</script>

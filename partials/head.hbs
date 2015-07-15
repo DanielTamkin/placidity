@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    {{#is "private"}}
+      <title>{{@blog.title}} | login</title>
+      {{else}}
+        <title>{{meta_title}}</title>
+    {{/is}}
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <link rel="stylesheet" type="text/css" href="{{asset "fonts/fonts.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/reset.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+    <script type="text/javascript" src="{{asset "js/jQuery.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/centerThis.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/AnchorSlide.js"}}"></script>
+    {{ghost_head}}
+</head>

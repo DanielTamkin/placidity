@@ -1,0 +1,38 @@
+{{#post}}
+  {{#if image}}
+    {{#if featured}}
+      <section id="site-hero" class="hero" style="background: url({{image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+      {{else}}
+      <section id="site-hero" class="hero-partial" style="background: url({{image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+    {{/if}}
+      <div class="wrapper">
+        {{navigation}}
+        <div class="title Container-Large">
+          <h1>{{title}}</h1>
+          {{#if meta_description}}
+            <p>{{meta_description}}</p>
+          {{/if}}
+          {{#if featured}}
+            <div class="arrow">
+              <a href="#post"><img src="{{asset "images/arrow.png"}}"></a>
+            </div>
+          {{/if}}
+        </div>
+      </div>
+    </section>
+  {{else}}
+    <section id="site-hero" class="hero-partial hero-noimage">
+        {{navigation}}
+        <div class="title Container-Large">
+          <h1>{{title}}</h1>
+          {{#if meta_description}}
+            <p>{{meta_description}}</p>
+          {{/if}}
+        </div>
+    </section>
+  {{/if}}
+{{/post}}
+<script>
+  $("#site-hero").AnchorSlide();
+  $("#site-hero .title").centerThis();
+</script>
