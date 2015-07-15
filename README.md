@@ -1,7 +1,9 @@
 # Placidity
 ---
 A Image Heavy Ghost theme.
-image alt tagging.
+
+if you see a bug or have thunk of a great way to improve Placidity, [create a new issue](https://github.com/DanielTamkin/placidity/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands)
+
 ### Installation
  1. Install Placidity to your Themes directory located at `ghost\content\themes`
  2. login to your ghost admin panel.
