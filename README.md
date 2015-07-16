@@ -1,8 +1,10 @@
 # Placidity
----
+
 A Image Heavy Ghost theme.
 
 if you see a bug or have thunk of a great way to improve Placidity, [create a new issue](https://github.com/DanielTamkin/placidity/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands)
+
+[![PayPayl donate button](https://img.shields.io/badge/donate-paypal-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SGNLGR9725Y2U "Donate to DanielTamkin")
 
 ### Installation
  1. Install Placidity to your Themes directory located at `ghost\content\themes`
@@ -10,7 +12,6 @@ if you see a bug or have thunk of a great way to improve Placidity, [create a ne
  3. navigate to your `settings/general` panel.
  4. Change your Theme setting to `Placidity`
 
-[![PayPayl donate button](https://img.shields.io/badge/donate-paypal-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SGNLGR9725Y2U "Donate to DanielTamkin")
 
 ### Home
 ![Placidity-Home](screenshots/placidity-home.jpg)
