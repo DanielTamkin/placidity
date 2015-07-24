@@ -1,6 +1,6 @@
 # Placidity
 
-A Image Heavy Ghost theme.
+An Image Heavy Ghost theme.
 
 if you see a bug or have a great idea on how to improve Placidity, [create a new issue](https://github.com/DanielTamkin/placidity/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands)
 
@@ -27,3 +27,10 @@ if you see a bug or have a great idea on how to improve Placidity, [create a new
 
 ### Suggested Reads
 ![Placidity-SuggestedReads](screenshots/placidity-featured.jpg)
+
+Details
+---
+| Fonts  | jQuery plugins |
+| ------------- | ------------- |
+| [Lato](https://www.google.com/fonts#UsePlace:use/Collection:Lato)  | [centerThis.js](https://github.com/DanielTamkin/centerThis.js)  |
+| [Raleway](https://www.google.com/fonts#UsePlace:use/Collection:Raleway)  | [AnchorSlide.js](https://github.com/DanielTamkin/AnchorSlide.js)  |
