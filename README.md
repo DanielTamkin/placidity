@@ -1,6 +1,6 @@
 # Placidity
 
-An Image Heavy Ghost theme.
+A free, Image Heavy Ghost theme.
 
 if you see a bug or have a great idea on how to improve Placidity, [create a new issue](https://github.com/DanielTamkin/placidity/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands)
 
