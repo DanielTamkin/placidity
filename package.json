@@ -1,4 +1,6 @@
 {
   "name": "Placidity",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "author": "Daniel Tamkin",
+  "description": "An Image heavy ghost theme."
 }
