@@ -2,7 +2,7 @@
 
 A free, Image Heavy Ghost theme.
 
-if you see a bug or have a great idea on how to improve Placidity, [create a new issue](https://github.com/DanielTamkin/placidity/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands)
+if you see a bug or have a great idea on how to improve Placidity, Dont hesitate to [create a new issue](https://github.com/DanielTamkin/placidity/issues) or Tweet me [@CodeHands](https://twitter.com/CodeHands)
 
 [![PayPayl donate button](https://img.shields.io/badge/donate-paypal-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SGNLGR9725Y2U "Donate to DanielTamkin")
 
