@@ -323,10 +323,10 @@
 	}
 	#post section.body{
 		margin-bottom:15px;
-		font-size:1.2em;
+		font-size:1.1em;
 		line-height:1.5;
 	}
-	#post section.body p{margin:16px 0;}
+	#post section.body p{margin:16px 0; font-size:1.1em}
 	/*fix with jQuery*/
 	#post section.body img{
 		margin:1.6em 0;
