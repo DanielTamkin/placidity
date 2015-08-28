@@ -170,7 +170,7 @@
 		float:left;
 	}
 	#loop article.suggested h1{
-		font-size:2.9em;
+		font-size:2.4em;
 	}
 	#loop article section.image{
 		height:350px;
@@ -202,7 +202,7 @@
 		right:0;
 	}
 	#loop article header h1{
-		font-size:4em;
+		font-size:3em;
 		font-family:'Lato-Bold';
 	}
 	#loop article header p b{
@@ -329,7 +329,7 @@
 	#post section.body p{margin:16px 0; font-size:1.1em}
 	/*fix with jQuery*/
 	#post section.body img{
-		margin:1.6em 0;
+		margin:1em 0;
 		height:auto;
 		max-height:600px;
 		max-width:100%;
@@ -345,9 +345,9 @@
 	#post section.body ol li{margin-left:10px;}
 	#post section.body h1{font-size:3em;}
 	#post section.body h2{font-size:2.7em;}
-	#post section.body h3{font-size:2.4em;}
-	#post section.body h4{font-size:1.7em;}
-	#post section.body h5{font-size:1.4em;}
+	#post section.body h3{font-size:2.2em;}
+	#post section.body h4{font-size:1.6em;}
+	#post section.body h5{font-size:1.2em;}
 	#post section.body h6{font-size:0.7em;}
 	#post section.body i{text-decoration:italic;}
 	#post section.body b{font-family:'Railway-Bold';}
@@ -495,7 +495,7 @@
 	}
 	#private h1{
 		margin:10px 0;
-		font-size:5em;
+		font-size:4em;
 		font-family:'Lato-Bold';
 	}
 	#private form{
