@@ -343,12 +343,12 @@
 	}
 	#post section.body ol{margin-left:10px;list-style:lower-alpha;}
 	#post section.body ol li{margin-left:10px;}
-	#post section.body h1{font-size:4em;}
-	#post section.body h2{font-size:3.7em;}
-	#post section.body h3{font-size:3.4em;}
-	#post section.body h4{font-size:2.7em;}
-	#post section.body h5{font-size:2.4em;}
-	#post section.body h6{font-size:1.7em;}
+	#post section.body h1{font-size:3em;}
+	#post section.body h2{font-size:2.7em;}
+	#post section.body h3{font-size:2.4em;}
+	#post section.body h4{font-size:1.7em;}
+	#post section.body h5{font-size:1.4em;}
+	#post section.body h6{font-size:0.7em;}
 	#post section.body i{text-decoration:italic;}
 	#post section.body b{font-family:'Railway-Bold';}
 	#post section.body hr{margin:2em auto;max-width:400px;height:3px;border:none;border-top:3px solid #0c1b1b;}
