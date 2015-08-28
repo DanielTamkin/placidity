@@ -3,12 +3,11 @@
 		color:#273a34;
 		font-family:'Raleway',Serif;
 	}
-	a:hover{
+	a {
 		text-decoration:underline;
 	}
 	p a:hover{
 		color:#000;
-		text-decoration:underline;
 	}
 /*> hero*/
 	#site-hero{
