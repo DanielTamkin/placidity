@@ -3,12 +3,11 @@
 		color:#273a34;
 		font-family:'Raleway',Serif;
 	}
-	a:hover{
+	a {
 		text-decoration:underline;
 	}
 	p a:hover{
 		color:#000;
-		text-decoration:underline;
 	}
 /*> hero*/
 	#site-hero{
@@ -170,7 +169,7 @@
 		float:left;
 	}
 	#loop article.suggested h1{
-		font-size:2.9em;
+		font-size:2.4em;
 	}
 	#loop article section.image{
 		height:350px;
@@ -202,7 +201,7 @@
 		right:0;
 	}
 	#loop article header h1{
-		font-size:4em;
+		font-size:3em;
 		font-family:'Lato-Bold';
 	}
 	#loop article header p b{
@@ -323,11 +322,13 @@
 	}
 	#post section.body{
 		margin-bottom:15px;
+		font-size:1.1em;
+		line-height:1.5;
 	}
-	#post section.body p{margin:16px 0;line-height:1.5;font-size:1.2em;}
+	#post section.body p{margin:16px 0; font-size:1.1em}
 	/*fix with jQuery*/
 	#post section.body img{
-		margin:1.6em 0;
+		margin:1em 0;
 		height:auto;
 		max-height:600px;
 		max-width:100%;
@@ -341,12 +342,12 @@
 	}
 	#post section.body ol{margin-left:10px;list-style:lower-alpha;}
 	#post section.body ol li{margin-left:10px;}
-	#post section.body h1{font-size:4em;}
-	#post section.body h2{font-size:3.7em;}
-	#post section.body h3{font-size:3.4em;}
-	#post section.body h4{font-size:2.7em;}
-	#post section.body h5{font-size:2.4em;}
-	#post section.body h6{font-size:1.7em;}
+	#post section.body h1{font-size:3em;}
+	#post section.body h2{font-size:2.7em;}
+	#post section.body h3{font-size:2.2em;}
+	#post section.body h4{font-size:1.6em;}
+	#post section.body h5{font-size:1.2em;}
+	#post section.body h6{font-size:0.7em;}
 	#post section.body i{text-decoration:italic;}
 	#post section.body b{font-family:'Railway-Bold';}
 	#post section.body hr{margin:2em auto;max-width:400px;height:3px;border:none;border-top:3px solid #0c1b1b;}
@@ -493,7 +494,7 @@
 	}
 	#private h1{
 		margin:10px 0;
-		font-size:5em;
+		font-size:4em;
 		font-family:'Lato-Bold';
 	}
 	#private form{
