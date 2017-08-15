@@ -1,6 +1,12 @@
 {
-  "name": "Placidity",
+  "name": "placidity",
   "version": "1.0.0",
-  "author": "Daniel Tamkin",
-  "description": "An Image heavy ghost theme."
+  "description": "An Image heavy ghost theme.",
+  "author": {
+    "email": "your@email.here",
+    "name": "Daniel Tamkin"
+  },
+  "config": {
+      "posts_per_page": 10
+  }
 }

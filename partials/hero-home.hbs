@@ -1,12 +1,12 @@
   {{!decide which type of hero to use}}
-  {{#if @blog.cover}}
+  {{#if @blog.cover_image}}
     {{#is "home"}}
-      <section id="site-hero" style="background: url({{@blog.cover}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+      <section id="site-hero" style="background: url({{@blog.cover_image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
       {{else}}
-      <section id="site-hero" class="hero-partial" style="background: url({{@blog.cover}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+      <section id="site-hero" class="hero-partial" style="background: url({{@blog.cover_image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
     {{/is}}
   {{else}}
-    <section id="site-hero" class="hero-partial hero-noimage" style="background: url({{@blog.cover}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+    <section id="site-hero" class="hero-partial hero-noimage" style="background: url({{@blog.cover_image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
   {{/if}}
     <div class="wrapper">
       {{navigation}}
