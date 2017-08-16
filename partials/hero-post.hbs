@@ -1,9 +1,9 @@
 {{#post}}
-  {{#if image}}
+  {{#if feature_image}}
     {{#if featured}}
-      <section id="site-hero" class="hero" style="background: url({{image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+      <section id="site-hero" class="hero" style="background: url({{img_url feature_image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
       {{else}}
-      <section id="site-hero" class="hero-partial" style="background: url({{image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+      <section id="site-hero" class="hero-partial" style="background: url({{img_url feature_image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
     {{/if}}
       <div class="wrapper">
         {{navigation}}

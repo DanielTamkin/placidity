@@ -1,14 +1,14 @@
 {{#author}}
-  {{#if cover}}
-      <section id="site-hero" class="hero-partial" style="background: url({{cover}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+  {{#if cover_image}}
+      <section id="site-hero" class="hero-partial" style="background: url({{cover_image}}) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
     {{else}}
       <section id="site-hero" class="hero-partial hero-noimage">
   {{/if}}
       {{navigation}}
       <div class="title Container-Large">
-        {{#if image}}
+        {{#if profile_image}}
           <div class="profileimage">
-            <img src="{{image}}" />
+            <img src="{{img_url profile_image}}" />
           </div>
         {{/if}}
         <h1>{{name}}</h1>
