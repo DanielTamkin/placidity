@@ -124,3 +124,10 @@ table {
 		@media all and (max-width: 300px) {
 			body{font-size:82%;}
 		}
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
